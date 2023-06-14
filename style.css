@@ -16,7 +16,7 @@ body{
     background-image:url(images/ant.jpeg);
     background-position: 30%;
     height: 100%;
-    width: 33%;
+    width: 50%;
     margin: 0;
 }
 #logo{
@@ -29,32 +29,98 @@ body{
     margin-top: auto;
     font-size: small;
     font-weight: 800;
+    text-align: center;
     
 }
 
 .pair{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 400px;
     
 }
 
 .row{
     display: flex;
+    margin: 12px 0;
 }
 input{
-    max-width: 90%;
+    
+    max-width: 70%;
+    background-color: rgb(42, 110, 145);
+    border-radius: 3px;
+    border-color: rgb(138, 198, 216);
+    outline: none;
+    color: #E5E7EB;
+    height: 20px;
 }
 
 #contentbar{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(42, 110, 145);
+    justify-content: flex-start;
+    width: 100%
 }
 form{
     width: 80%;
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-top: 30px;
 }
 .centerbutton{
     display: flex;
-    justify-content: center;
+    
+    
+}
+
+p, span{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    max-width: 50%;
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-bottom: 0px;
+    color: antiquewhite;
+
+}
+
+p {
+    margin-top: 20%;
+}
+#redirect{
+    font-size: small;
+}
+a:link { text-decoration: none; }
+
+
+a{
+    color:rgb(87, 59, 18)
+}
+
+.text1{
+    margin-top: 15px;
+}
+.text2{
+    margin-top: 38px;
+}
+label{
+    font-size: 9px;
+    color:rgb(202, 202, 202);
+    font-weight: 900;
+}
+button{
+    background-color: rgb(235, 123, 49);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 240px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    border: solid;
+    border-color: #E5E7EB;
+    margin: 30px 0;
+    align-self: center;
 }

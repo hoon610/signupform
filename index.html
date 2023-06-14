@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign up for Formica!</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,48 +14,48 @@
     <div class="container">
         <div id="sidebar">
             <img id="logo" src="images/logo.jpeg" alt="logo image">
-            <span id="photographer">Photo from Cherre Bezerra Da Silva on Unsplash</span>
+            <span id="photographer">Photo from <a class="credits" href="https://scholar.google.com/citations?user=_nZrgUgAAAAJ&hl=en">Cherre Bezerra Da Silva</a> on <a class="credits" href="https://unsplash.com/photos/amB0TvcByMI">Unsplash</a></span>
         </div>
         <div id="contentbar">
-            <p>This is not a real online service! You know you need something like this in your life to actualize your deepest dreams</p>
-            <span>Sign up <i>now</i> to get started.</span>
-            <span>You <i>know</i> you want to.</span>
-            <span>Let's do this!</span>
-            <form action="">
+            <p class="textcontent">This is not a real online service! You know you need something like this in your life to actualize your deepest dreams</p>
+            <span class="textcontent">Sign up now to get started.</span>
+            <span class="text1">You <i>know</i>  you want to.</span>
+            <span class="text2">Let's do this!</span>
+            <form action="push">
                 <div class="row">
                     <div class="pair">
-                        <label for="firstname">First Name</label>
+                        <label for="firstname">FIRST NAME</label>
                         <input type="text" name="firstname" required>
                     </div>
                     <div class="pair">
-                        <label for="lastname">Last Name</label>
+                        <label for="lastname">LAST NAME</label>
                         <input type="text" name="lastname" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="pair">
-                        <label for="email">Email</label>
+                        <label for="email">EMAIL</label>
                         <input type="email" name="email" id="email" required>
                     </div>
                     <div class="pair">
-                        <label for="phone">Phone Number</label>
+                        <label for="phone">PHONE NUMBER</label>
                         <input type="tel" name="phone" id="phone" required>
                     </div>
                 </div>
                 <div  class="row">
                     <div class="pair">
-                        <label for="password">Password</label>
+                        <label for="password">PASSWORD</label>
                         <input name="password" type="password" required minlength="7">
                     </div>
                     <div class="pair">
-                        <label for="confirmpassword">Confirm Password</label>
+                        <label for="confirmpassword">CONFIRM PASSWORD</label>
                         <input name="confirmpassword" type="password" required minlength="7">
                     </div>
                 </div>
                 <div class="centerbutton"><button type="submit">Create Account</button></div>
                 
             </form>
-            <span>Already have an account? <a href="yes.com">Login</a></span>
+            <span id = "redirect">Already have an account? <a class = "login" href="https://hoon610.github.io/etchasketch/">Log in</a></span>
         </div>
     </div>
 
